@@ -29,6 +29,7 @@ namespace MultipleAppSetup
             services.AddSingleton<ICustomerData, CustomerDataInMemory>();
             services.AddSingleton<IMembershipData, MembershipDataInMemory>();
             services.AddSingleton<IVisitData, VisitDataInMemory>();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
